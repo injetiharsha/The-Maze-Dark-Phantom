@@ -1,27 +1,49 @@
-# THE MAZE: DARK PHANTOM
+# The Maze: Dark Phantom
 
-**THE MAZE: DARK PHANTOM** is a first-person, audio-based maze exploration game where players must navigate a dark, mysterious labyrinth using only spatial sound cues. With minimal lighting and a head-mounted spotlight, players rely on ambient sounds to guide them toward the finish point while avoiding dead ends and obstacles.
+**The Maze: Dark Phantom** is a unique 3D audio-driven maze exploration game developed in Unity. Players navigate a dark and eerie maze using only spatial audio cues, guided by a faint head-mounted spotlight and realistic sound occlusion. Vision is minimal—sound is your only guide.
 
-## Features:
-- **Audio-driven gameplay**: Navigate the maze using spatial audio cues like footsteps, whispers, and a finish beacon.
-- **Immersive environment**: Low lighting, fog, and detailed terrain with grass and bushes enhance the eerie atmosphere.
-- **Timer**: Track the time taken to reach the exit and challenge your speed.
-- **Unique mechanics**: Rely on occlusion and environmental sound to progress.
+---
 
-## Gameplay:
-- Move through the maze with the **WASD** keys and crouch with **C**.
-- **Jump** with **Space** and use your head-mounted spotlight to light the way.
-- The finish point is marked by a **beacon** that grows louder as you get closer.
-- The game challenges your spatial awareness and hearing as you rely on audio cues to navigate the maze.
+## 🎮 Concept
 
-## Installation:
-1. Clone or download this repository to your local machine.
-2. Open the project in **Unity**.
-3. Ensure you have the required Unity version (check the `ProjectSettings/ProjectVersion.txt` for details).
-4. Play the game within Unity or build the project for your platform.
+In a world where hearing becomes your only way to survive, this game challenges players to rely solely on directional sound to find their way through a mysterious, fog-filled maze. As you get closer to the beacon, the sound intensifies—helping you find the exit.
 
-## Contributions:
+---
 
-## Credits:
-- **Unity 6** for the game engine.
-- I have used many free assets from Unity Asset store for the audio, textures, and other assets.
+## Features
+
+- **Spatial Audio Navigation** – Navigate using footsteps, ambient sounds, whispers, and a finish beacon.
+- **Immersive Visuals** – Nebula skybox, realistic terrain with grass and bushes, and limited visibility via fog.
+- **Minimal Lighting** – Head-mounted spotlight provides a narrow vision cone.
+- **Timer System** – Tracks player’s time to reach the finish.
+- **Player Name Input** – Enter your name before starting; name and time are recorded.
+- **Finish Detection** – Finish point with trigger detection and scene transition.
+- **Main Menu UI** – Simple UI with Play and Exit buttons and name input.
+- **Built with Unity HDRP** – High-quality rendering and lighting system.
+
+---
+
+## Controls
+
+| Action   | Key        |
+|----------|------------|
+| Move     | W / A / S / D |
+| Run      | Shift      |
+| Jump     | Space      |
+| Crouch   | Left Ctrl  |
+
+Each movement action includes corresponding sound effects.
+
+---
+
+## Game Flow
+
+1. Launch the game and enter your name in the main menu.
+2. Begin the maze with only a spotlight and directional audio.
+3. Follow the sound to find your way through.
+4. Reach the beacon at the end to finish and record your time.
+
+---
+
+
+
