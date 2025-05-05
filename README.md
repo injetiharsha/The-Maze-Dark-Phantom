@@ -45,5 +45,11 @@ Each movement action includes corresponding sound effects.
 
 ---
 
+## Requirements
+
+- Unity 2021.3 or newer
+- HDRP (High Definition Render Pipeline)
+- Basic PC hardware (no VR required)
+
 
 
