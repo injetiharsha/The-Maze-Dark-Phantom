@@ -59,6 +59,11 @@ Each movement action includes corresponding sound effects.
 
 ---
 
+## Scene Flow
+0 MainMenu
+1 Game
+2 Finish
+
 ## 📋 Requirements
 
 - Unity 2021.3 or newer
