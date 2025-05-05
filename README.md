@@ -10,6 +10,20 @@ In a world where hearing becomes your only way to survive, this game challenges 
 
 ---
 
+## 🔊 Audio Occlusion (Core Mechanic)
+
+Audio Occlusion is a key gameplay mechanic in **The Maze: Dark Phantom**. It simulates how sound behaves in a 3D space by accounting for obstacles like walls and objects between the sound source and the listener (the player). 
+
+In this game, the beacon sound — which helps the player navigate — becomes **muffled, blocked, or redirected** depending on the maze’s layout. This means players cannot simply follow volume alone; they must consider how sound is affected by walls and corners. The system uses Unity’s built-in spatial audio settings along with **occlusion simulation** to:
+
+- Muffle sounds behind walls
+- Reduce volume if obstacles block a direct path
+- Provide realistic directional sound cues
+
+This mechanic makes navigation more immersive and challenging, encouraging players to **listen carefully and move strategically**.
+
+---
+
 ## Features
 
 - **Spatial Audio Navigation** – Navigate using footsteps, ambient sounds, whispers, and a finish beacon.
@@ -50,6 +64,14 @@ Each movement action includes corresponding sound effects.
 - Unity 2021.3 or newer
 - HDRP (High Definition Render Pipeline)
 - Basic PC hardware (no VR required)
+
+---
+
+## 📦 Assets & Credits
+
+Some environment textures, models, and sound effects used in this project were sourced from the **Unity Asset Store** under free or permitted educational licenses. All credited assets are used solely for learning and non-commercial purposes.
+
+
 
 
 
