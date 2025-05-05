@@ -14,7 +14,7 @@ In a world where hearing becomes your only way to survive, this game challenges 
 
 Audio Occlusion is a key gameplay mechanic in **The Maze: Dark Phantom**. It simulates how sound behaves in a 3D space by accounting for obstacles like walls and objects between the sound source and the listener (the player). 
 
-In this game, the beacon sound — which helps the player navigate — becomes **muffled, blocked, or redirected** depending on the maze’s layout. This means players cannot simply follow volume alone; they must consider how sound is affected by walls and corners. The system uses Unity’s built-in spatial audio settings along with **occlusion simulation** to:
+In this game, the beacon sound, which helps the player navigate, becomes **muffled, blocked, or redirected** depending on the maze’s layout. This means players cannot simply follow volume alone; they must consider how sound is affected by walls and corners. The system uses Unity’s built-in spatial audio settings along with **occlusion simulation** to:
 
 - Muffle sounds behind walls
 - Reduce volume if obstacles block a direct path
@@ -29,7 +29,7 @@ This mechanic makes navigation more immersive and challenging, encouraging playe
 - **Spatial Audio Navigation** – Navigate using footsteps, ambient sounds, whispers, and a finish beacon.
 - **Immersive Visuals** – Nebula skybox, realistic terrain with grass and bushes, and limited visibility via fog.
 - **Minimal Lighting** – Head-mounted spotlight provides a narrow vision cone.
-- **Timer System** – Tracks player’s time to reach the finish.
+- **Timer System** – Tracks the player’s time to reach the finish.
 - **Player Name Input** – Enter your name before starting; name and time are recorded.
 - **Finish Detection** – Finish point with trigger detection and scene transition.
 - **Main Menu UI** – Simple UI with Play and Exit buttons and name input.
@@ -57,12 +57,12 @@ Each movement action includes corresponding sound effects.
 3. Follow the sound to find your way through.
 4. Reach the beacon at the end to finish and record your time.
 
----
-
 ## Scene Flow
-0 MainMenu
-1 Game
+0 MainMenu -->
+1 Game -->
 2 Finish
+
+---
 
 ## 📋 Requirements
 
@@ -70,12 +70,15 @@ Each movement action includes corresponding sound effects.
 - HDRP (High Definition Render Pipeline)
 - Basic PC hardware (no VR required)
 
----
-
 ## 📦 Assets & Credits
 
-Some environment textures, models, and sound effects used in this project were sourced from the **Unity Asset Store** under free or permitted educational licenses. All credited assets are used solely for learning and non-commercial purposes.
+Some of the environment textures, models, and sound effects used in this project were sourced from the Unity Asset Store under free or permitted educational licenses. All credited assets are used solely for learning and non-commercial purposes.
 
+
+---
+## 💡 Development
+Developed by Injeti Udaya Harsha, Samyak Jain
+Designed in Unity 6 | Audio-Driven Gameplay Concept
 
 
 
