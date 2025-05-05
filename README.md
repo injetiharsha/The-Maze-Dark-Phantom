@@ -24,7 +24,7 @@ This mechanic makes navigation more immersive and challenging, encouraging playe
 
 ---
 
-## Features
+## 🚀 Features
 
 - **Spatial Audio Navigation** – Navigate using footsteps, ambient sounds, whispers, and a finish beacon.
 - **Immersive Visuals** – Nebula skybox, realistic terrain with grass and bushes, and limited visibility via fog.
@@ -37,7 +37,7 @@ This mechanic makes navigation more immersive and challenging, encouraging playe
 
 ---
 
-## Controls
+## 🕹️ Controls
 
 | Action   | Key        |
 |----------|------------|
@@ -50,7 +50,7 @@ Each movement action includes corresponding sound effects.
 
 ---
 
-## Game Flow
+## 🏁 Game Flow
 
 1. Launch the game and enter your name in the main menu.
 2. Begin the maze with only a spotlight and directional audio.
@@ -59,7 +59,7 @@ Each movement action includes corresponding sound effects.
 
 ---
 
-## Requirements
+## 📋 Requirements
 
 - Unity 2021.3 or newer
 - HDRP (High Definition Render Pipeline)
