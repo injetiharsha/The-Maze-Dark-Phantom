@@ -77,7 +77,7 @@ Some of the environment textures, models, and sound effects used in this project
 
 ---
 ## 💡 Development
-* Developed by Injeti Udaya Harsha, Samyak Jain
+* Developed by Injeti Udaya Harsha
 * Designed in Unity 6 | Audio-Driven Gameplay Concept
 
 
